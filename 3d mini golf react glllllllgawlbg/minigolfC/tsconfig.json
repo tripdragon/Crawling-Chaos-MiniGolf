@@ -2,6 +2,15 @@
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+    { "path": "./tsconfig.node.json" },
+  ],
+  "include": [
+    "types.d.ts",
+    "react-three-fiber.d.ts",
+    "global.d.ts"
+  ],
+  "compilerOptions": {
+    "jsx": "react",
+    "types": ["@react-three/fiber"]
+  }
 }

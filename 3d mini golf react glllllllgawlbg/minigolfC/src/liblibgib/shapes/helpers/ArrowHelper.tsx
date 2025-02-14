@@ -5,10 +5,27 @@
 */
 import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
+// import { Primitive } from "@react-three/drei";
+
 import { ArrowHelper as ThreeArrowHelper, Vector3 } from "three";
 
-export function ArrowHelper({ direction = [0, 0, 1], origin = [0, 0, 0], length = 1, color = "yellow" }) {
-  const arrowRef = useRef();
+interface ArrowHelperProps {
+  direction?: Vector3 | [number, number, number];
+  origin?: Vector3 | [number, number, number];
+  length?: number;
+  color?: string | number;
+}
+
+export function ArrowHelper({
+  direction = [0, 0, 1],
+  origin = [0, 0, 0],
+  length = 1,
+  color = "yellow"
+  } : ArrowHelperProps ){
+
+  const arrowRef = useRef<ThreeArrowHelper>(null!);
+
+  // const { primitive } = useThree();
 
   // Convert array props to Vector3
   const dir = new Vector3(...direction).normalize();

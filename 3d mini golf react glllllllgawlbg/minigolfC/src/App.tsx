@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <div>
-        <a href="/World">
-          World
+        <a href="/MinigolfC">
+          MinigolfC
         </a>
         <br />
 

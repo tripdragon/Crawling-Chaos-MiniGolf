@@ -37,7 +37,7 @@ export function MinigolfC() {
   const { world } = useRapier();
 
 
-  const handleClick = (event) => {
+  const handleClick = (event: React.MouseEvent) => {
 
     const { clientX, clientY } = event;
     const { width, height } = event.target.getBoundingClientRect();
