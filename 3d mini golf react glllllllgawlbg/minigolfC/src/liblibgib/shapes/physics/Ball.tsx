@@ -1,7 +1,7 @@
 
 // import { Canvas, useThree } from '@react-three/fiber'
 
-import { useState, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { useFrame } from "@react-three/fiber";
 
 import { ArrowHelper } from "@liblibgib/shapes/helpers/ArrowHelper.tsx";

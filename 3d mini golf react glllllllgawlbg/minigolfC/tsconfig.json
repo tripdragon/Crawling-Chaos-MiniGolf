@@ -3,14 +3,5 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" },
-  ],
-  "include": [
-    "types.d.ts",
-    "react-three-fiber.d.ts",
-    "global.d.ts"
-  ],
-  "compilerOptions": {
-    "noEmitOnError": false,
-    "types": ["@react-three/fiber"]
-  }
+  ]
 }
