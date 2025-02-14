@@ -4,7 +4,7 @@
 
 */
 import { useRef } from "react";
-import { useFrame, ThreeElements } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber";
 // import { Primitive } from "@react-three/drei";
 
 import { ArrowHelper as ThreeArrowHelper, Vector3 } from "three";

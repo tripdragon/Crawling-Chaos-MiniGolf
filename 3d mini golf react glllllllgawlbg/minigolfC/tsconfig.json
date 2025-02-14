@@ -10,7 +10,7 @@
     "global.d.ts"
   ],
   "compilerOptions": {
-    "jsx": "react",
+    "noEmitOnError": false,
     "types": ["@react-three/fiber"]
   }
 }
