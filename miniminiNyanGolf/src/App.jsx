@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="/MinigolfC">
+        <a href="#/MinigolfC">
           MinigolfC
         </a>
         <br />
